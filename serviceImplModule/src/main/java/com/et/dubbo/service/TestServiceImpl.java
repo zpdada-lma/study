@@ -11,6 +11,6 @@ import org.springframework.stereotype.Service;
 public class TestServiceImpl implements TestService {
     @Override
     public String getData(String name) {
-        return "result is " + name;
+        return "result is: " + name;
     }
 }
